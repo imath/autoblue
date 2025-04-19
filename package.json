@@ -4,6 +4,8 @@
 	"scripts": {
 		"build": "wp-scripts build",
 		"start": "wp-scripts start",
+		"generate-pot": "wp i18n make-pot . autoblue.pot --include=\"autoblue.php,build,includes,uninstall.php\"",
+		"i18n-json": "wp i18n make-json . --no-purge",
 		"plugin-zip": "composer install --no-dev && npm run build && node bin/plugin-zip && composer install"
 	},
 	"license": "GPL-3.0",

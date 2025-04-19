@@ -1,0 +1,554 @@
+# Copyright (C) 2025 Daniel Post
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Autoblue 0.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/autoblue\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-19T05:44:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: autoblue\n"
+
+#. Plugin Name of the plugin
+#: autoblue.php
+msgid "Autoblue"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: autoblue.php
+msgid "https://autoblue.co"
+msgstr ""
+
+#. Description of the plugin
+#: autoblue.php
+msgid "Automatically share new posts to Bluesky."
+msgstr ""
+
+#. Author of the plugin
+#: autoblue.php
+msgid "Daniel Post"
+msgstr ""
+
+#: build/js/blocks/comments/index.php:55
+msgid "Comments"
+msgstr ""
+
+#: build/js/blocks/comments/index.php:57
+msgid "Join the conversation on Bluesky"
+msgstr ""
+
+#: includes/Admin.php:35
+#: build/admin.js:4
+#: build/admin.js:10
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin.php:70
+msgid "List of connected Bluesky accounts."
+msgstr ""
+
+#: includes/Admin.php:84
+msgid "True is sharing is enabled by default for new posts."
+msgstr ""
+
+#: includes/Admin.php:96
+msgid "The log level for Autoblue."
+msgstr ""
+
+#: includes/Admin.php:118
+msgid "The current database version."
+msgstr ""
+
+#: includes/Bluesky.php:65
+msgid "Skipping image: Failed to find image with ID `{attachment_id}`."
+msgstr ""
+
+#: includes/Bluesky.php:74
+msgid "Skipping image: Invalid mime type for image with ID `{attachment_id}`. Allowed types are `{allowed_types}`, but got `{mime_type}`."
+msgstr ""
+
+#: includes/Bluesky.php:88
+msgid "Skipping image: Compression failed for image with ID `{attachment_id}`."
+msgstr ""
+
+#: includes/Bluesky.php:95
+msgid "Skipping image: Failed to upload image with ID `{attachment_id}` to Bluesky:"
+msgstr ""
+
+#: includes/Bluesky.php:100
+msgid "Uploaded image with ID `{attachment_id}` to Bluesky."
+msgstr ""
+
+#: includes/Bluesky.php:116
+#: includes/PostHandler.php:113
+msgid "Share failed: Post with ID {post_id} not found."
+msgstr ""
+
+#: includes/Bluesky.php:123
+msgid "Share failed: No Bluesky connection found."
+msgstr ""
+
+#: includes/Bluesky.php:130
+msgid "Failed to refresh Bluesky connection tokens before sharing:"
+msgstr ""
+
+#: includes/Bluesky.php:187
+msgid "Failed to share post with ID {post_id} to Bluesky:"
+msgstr ""
+
+#: includes/Bluesky.php:210
+msgid "Shared post {post_title} with ID {post_id} to Bluesky: {bluesky_url}"
+msgstr ""
+
+#: includes/Bluesky/API.php:126
+msgid "Invalid DID or password."
+msgstr ""
+
+#: includes/Bluesky/API.php:147
+msgid "Invalid refresh JWT."
+msgstr ""
+
+#: includes/Bluesky/API.php:169
+msgid "Invalid record or access token."
+msgstr ""
+
+#: includes/Bluesky/API.php:190
+msgid "Invalid blob or MIME type."
+msgstr ""
+
+#: includes/Bluesky/API.php:194
+msgid "Invalid access token."
+msgstr ""
+
+#: includes/Bluesky/API.php:214
+msgid "Error uploading blob."
+msgstr ""
+
+#: includes/Bluesky/API.php:233
+msgid "Unknown error."
+msgstr ""
+
+#: includes/Bluesky/API.php:234
+msgid "No message"
+msgstr ""
+
+#: includes/ConnectionsManager.php:34
+msgid "Connection not added: Connection with DID `{did}` already exists."
+msgstr ""
+
+#: includes/ConnectionsManager.php:35
+msgid "Connection already exists."
+msgstr ""
+
+#: includes/ConnectionsManager.php:39
+msgid "Connection not added: Invalid DID: `{did}`"
+msgstr ""
+
+#: includes/ConnectionsManager.php:40
+#: includes/ConnectionsManager.php:87
+msgid "Invalid DID."
+msgstr ""
+
+#: includes/ConnectionsManager.php:44
+msgid "Connection not added: Invalid app password."
+msgstr ""
+
+#: includes/ConnectionsManager.php:45
+msgid "Invalid app password."
+msgstr ""
+
+#: includes/ConnectionsManager.php:51
+msgid "Connection not added: Failed to authenticate with Bluesky."
+msgstr ""
+
+#: includes/ConnectionsManager.php:68
+msgid "Connection with handle `{handle}` added."
+msgstr ""
+
+#: includes/ConnectionsManager.php:75
+msgid "Connection added."
+msgstr ""
+
+#: includes/ConnectionsManager.php:86
+msgid "Connection not deleted: Invalid DID: `{did}`"
+msgstr ""
+
+#: includes/ConnectionsManager.php:94
+msgid "Connection not deleted: Connection not found."
+msgstr ""
+
+#: includes/ConnectionsManager.php:95
+#: includes/ConnectionsManager.php:155
+msgid "Connection not found."
+msgstr ""
+
+#: includes/ConnectionsManager.php:101
+msgid "Connection with DID `{did}` deleted."
+msgstr ""
+
+#: includes/Endpoints/AccountController.php:60
+msgid "DID of the account to fetch."
+msgstr ""
+
+#: includes/Endpoints/ConnectionsController.php:39
+msgid "DID of the connection to be deleted."
+msgstr ""
+
+#: includes/Endpoints/ConnectionsController.php:106
+msgid "DID of the Bluesky account."
+msgstr ""
+
+#: includes/Endpoints/ConnectionsController.php:112
+msgid "An app password linked to the Bluesky account to be added."
+msgstr ""
+
+#: includes/Endpoints/SearchController.php:63
+msgid "Search query prefix"
+msgstr ""
+
+#: includes/Logging/Log.php:62
+msgid "[Success] "
+msgstr ""
+
+#: includes/Meta.php:17
+msgid "Whether the post should be shared to Bluesky."
+msgstr ""
+
+#: includes/Meta.php:29
+msgid "An optional custom message to include with the post."
+msgstr ""
+
+#: includes/Meta.php:41
+msgid "A list of shares of the post."
+msgstr ""
+
+#: includes/Meta.php:77
+msgid "A Bluesky post URL to show likes and replies from."
+msgstr ""
+
+#: includes/PostHandler.php:36
+msgid "Skipping share for post `{post_title}` with ID `{post_id}` because it is not enabled."
+msgstr ""
+
+#: includes/PostHandler.php:49
+msgid "Skipping share for post `{post_title}` with ID `{post_id}` because it is not a supported post type. Valid post types are: `{valid_post_types}`, but got `{post_type}`."
+msgstr ""
+
+#: includes/PostHandler.php:63
+msgid "Skipping share for post `{post_title}` with ID `{post_id}` because the post is already published."
+msgstr ""
+
+#: includes/PostHandler.php:74
+msgid "Skipping share for post `{post_title}` with ID `{post_id}` because a share is already scheduled."
+msgstr ""
+
+#: includes/PostHandler.php:86
+msgid "Processing share for post `{post_title}` with ID `{post_id}` immediately."
+msgstr ""
+
+#: includes/PostHandler.php:95
+msgid "Scheduling share for post `{post_title}` with ID `{post_id}`."
+msgstr ""
+
+#: includes/PostHandler.php:120
+msgid "Processing share for post `{post_title}` with ID `{post_id}`."
+msgstr ""
+
+#: build/admin.js:1
+#: build/editor.js:1
+msgid "Delete"
+msgstr ""
+
+#: build/admin.js:1
+#: build/editor.js:1
+msgid "No accounts found. Please try another search."
+msgstr ""
+
+#: build/admin.js:1
+#: build/editor.js:1
+msgid "Search for a Bluesky account"
+msgstr ""
+
+#: build/admin.js:1
+#: build/editor.js:1
+msgid "Bluesky Account"
+msgstr ""
+
+#. translators: %s is the account name and handle
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Account \"%s\" connected"
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Failed to connect account"
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Account disconnected"
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Failed to disconnect account"
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Logs refreshed."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Failed to refresh logs."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Logs cleared."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Failed to clear logs."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Connect Bluesky account"
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "App Password"
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "You can create a new app password in your <a>Bluesky account settings</a>."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Connect Account"
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Something went wrong. Make sure the app password is correct."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Please enter an app password."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Please pick an account to add."
+msgstr ""
+
+#: build/admin.js:4
+msgid "No account connected."
+msgstr ""
+
+#: build/admin.js:4
+#: build/editor.js:4
+msgid "Connect a Bluesky account"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Disconnect"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Are you sure you want to disconnect this account?"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Automatic sharing to Bluesky enabled."
+msgstr ""
+
+#: build/admin.js:4
+msgid "Automatic sharing to Bluesky disabled."
+msgstr ""
+
+#: build/admin.js:4
+msgid "Bluesky account"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Automatically share posts to Bluesky"
+msgstr ""
+
+#: build/admin.js:4
+msgid "When enabled, new posts will be automatically shared to Bluesky. You can change this on a per-post basis."
+msgstr ""
+
+#: build/admin.js:4
+msgid "Autoblue is created by <a>Daniel Post</a>. Not officially affiliated with or endorsed by Bluesky."
+msgstr ""
+
+#: build/admin.js:4
+msgid "Debug"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Everything will be logged. Useful for debugging."
+msgstr ""
+
+#: build/admin.js:4
+msgid "Info"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Errors, warnings and info messages will be logged."
+msgstr ""
+
+#: build/admin.js:4
+msgid "Error"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Only critical errors will be logged."
+msgstr ""
+
+#: build/admin.js:4
+msgid "Off"
+msgstr ""
+
+#: build/admin.js:4
+msgid "Nothing will be logged."
+msgstr ""
+
+#. translators: %s is the log level
+#: build/admin.js:7
+msgid "Log level updated to \"%s\"."
+msgstr ""
+
+#: build/admin.js:7
+#: build/admin.js:10
+msgid "Context"
+msgstr ""
+
+#: build/admin.js:7
+#: build/admin.js:10
+msgid "Level"
+msgstr ""
+
+#: build/admin.js:7
+#: build/admin.js:10
+#: build/editor.js:4
+msgid "Message"
+msgstr ""
+
+#: build/admin.js:7
+msgid "Date"
+msgstr ""
+
+#: build/admin.js:7
+msgid "Log level"
+msgstr ""
+
+#: build/admin.js:7
+msgid "Choose the level of logs to save. This will not affect existing logs."
+msgstr ""
+
+#: build/admin.js:7
+msgid "Clear logs"
+msgstr ""
+
+#: build/admin.js:7
+msgid "Are you sure you want to clear all logs?"
+msgstr ""
+
+#: build/admin.js:7
+msgid "View options"
+msgstr ""
+
+#: build/admin.js:7
+msgid "(recommended)"
+msgstr ""
+
+#: build/admin.js:7
+msgid "Refresh logs"
+msgstr ""
+
+#: build/admin.js:7
+msgid "Previous page"
+msgstr ""
+
+#: build/admin.js:7
+msgid "Next page"
+msgstr ""
+
+#. translators: %1$d is the first item number, %2$d is the last item number, %3$d is the total number of items)
+#: build/admin.js:10
+msgid "Showing %1$d-%2$d of %3$d logs"
+msgstr ""
+
+#: build/admin.js:10
+msgid "View Context"
+msgstr ""
+
+#: build/admin.js:10
+msgid "Time"
+msgstr ""
+
+#: build/admin.js:10
+msgid "No logs (yet)."
+msgstr ""
+
+#: build/admin.js:10
+msgid "Logs"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Shared to Bluesky"
+msgstr ""
+
+#: build/editor.js:1
+msgid "View on Bluesky"
+msgstr ""
+
+#: build/editor.js:1
+msgid "Sharing was disabled for this post."
+msgstr ""
+
+#: build/editor.js:1
+msgid "Bluesky Post URL"
+msgstr ""
+
+#: build/editor.js:1
+msgid "If you used Autoblue to share this post, replies from that URL will show up automatically. If you did not use Autoblue or want to show replies from a different URL, you can enter it here."
+msgstr ""
+
+#: build/editor.js:4
+msgid "Share to Bluesky"
+msgstr ""
+
+#: build/editor.js:4
+msgid "Add an optional message to the Bluesky post."
+msgstr ""
+
+#: build/editor.js:4
+msgid "Sharing to:"
+msgstr ""
+
+#: build/js/blocks/comments/block.json
+msgctxt "block title"
+msgid "Autoblue Comments"
+msgstr ""
+
+#: build/js/blocks/comments/block.json
+msgctxt "block description"
+msgid "Display Bluesky comments on your site."
+msgstr ""

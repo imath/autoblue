@@ -1,0 +1,614 @@
+# Translation of Autoblue
+# This file is distributed under the CC0-1.0 license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Autoblue 0.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/autoblue\n"
+"POT-Creation-Date: 2025-04-19T05:44:31+00:00\n"
+"PO-Revision-Date: 2025-04-19 07:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: imath <contact@imathi.eu>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Domain: autoblue\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Plugin Name of the plugin
+#: autoblue.php
+msgid "Autoblue"
+msgstr "Autoblue"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: autoblue.php
+msgid "https://autoblue.co"
+msgstr "https://autoblue.co"
+
+#. Description of the plugin
+#: autoblue.php
+msgid "Automatically share new posts to Bluesky."
+msgstr "Partagez automatiquement vos nouveaux articles sur Bluesky."
+
+#. Author of the plugin
+#: autoblue.php
+msgid "Daniel Post"
+msgstr "Daniel Post"
+
+#: build/js/blocks/comments/index.php:55
+msgid "Comments"
+msgstr "Conversation"
+
+#: build/js/blocks/comments/index.php:57
+msgid "Join the conversation on Bluesky"
+msgstr "Rejoignez la conversation depuis Bluesky"
+
+#: includes/Admin.php:35 build/admin.js:4 build/admin.js:10
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/Admin.php:70
+msgid "List of connected Bluesky accounts."
+msgstr "Liste des comptes Bluesky connectés."
+
+#: includes/Admin.php:84
+msgid "True is sharing is enabled by default for new posts."
+msgstr "Vrai active par défaut le partage des nouveaux articles."
+
+#: includes/Admin.php:96
+msgid "The log level for Autoblue."
+msgstr "Le niveau de journalisation pour Autoblue."
+
+#: includes/Admin.php:118
+msgid "The current database version."
+msgstr "La version en base de données actuelle."
+
+#: includes/Bluesky.php:65
+msgid "Skipping image: Failed to find image with ID `{attachment_id}`."
+msgstr ""
+"Image ignorée : Autoblue n’est pas parvenu à trouver une image ayant pour ID "
+"`{attachment_id}`."
+
+#: includes/Bluesky.php:74
+msgid ""
+"Skipping image: Invalid mime type for image with ID `{attachment_id}`. "
+"Allowed types are `{allowed_types}`, but got `{mime_type}`."
+msgstr ""
+"Image ignorée : Le type mime de l’image ayant pour ID `{attachment_id}` "
+"n’est pas valide. Les types pris en charge sont `{allowed_types}`, ce qui ne "
+"comprend pas `{mime_type}`."
+
+#: includes/Bluesky.php:88
+msgid "Skipping image: Compression failed for image with ID `{attachment_id}`."
+msgstr ""
+"Image ignorée : Autoblue n’est pas parvenu à compresser l’image ayant pour "
+"ID `{attachment_id}`."
+
+#: includes/Bluesky.php:95
+msgid ""
+"Skipping image: Failed to upload image with ID `{attachment_id}` to Bluesky:"
+msgstr ""
+"Image ignorée : Autoblue n’est pas parvenu à transférer l’image ayant pour "
+"ID `{attachment_id}` à Bluesky :"
+
+#: includes/Bluesky.php:100
+msgid "Uploaded image with ID `{attachment_id}` to Bluesky."
+msgstr ""
+"Autoblue a transféré l’image ayant pour ID `{attachment_id}` à Bluesky."
+
+#: includes/Bluesky.php:116 includes/PostHandler.php:113
+msgid "Share failed: Post with ID {post_id} not found."
+msgstr ""
+"Le partage a échoué : Autoblue n’est pas parvenu à trouver l’article ayant "
+"pour ID `{post_id}`."
+
+#: includes/Bluesky.php:123
+msgid "Share failed: No Bluesky connection found."
+msgstr ""
+"Le partage a échoué : Autoblue n’est pas parvenu à trouver de connexion "
+"Bluesky."
+
+#: includes/Bluesky.php:130
+msgid "Failed to refresh Bluesky connection tokens before sharing:"
+msgstr ""
+"Autoblue n’est pas parvenu à rafraîchir les jetons de connexion de Bluesky "
+"avant sa tentative de partage :"
+
+#: includes/Bluesky.php:187
+msgid "Failed to share post with ID {post_id} to Bluesky:"
+msgstr ""
+"Autoblue n’est pas parvenu à partager l’article ayant pour ID `{post_id}` "
+"avec Bluesky :"
+
+#: includes/Bluesky.php:210
+msgid "Shared post {post_title} with ID {post_id} to Bluesky: {bluesky_url}"
+msgstr ""
+"L’article ayant pour titre {post_title} et ID {post_id} a été partagé avec "
+"Bluesky : {bluesky_url}"
+
+#: includes/Bluesky/API.php:126
+msgid "Invalid DID or password."
+msgstr "L’identifiant décentralisé (DID) ou le mot de passe sont non valides."
+
+#: includes/Bluesky/API.php:147
+msgid "Invalid refresh JWT."
+msgstr "Le jeton d’authentification JSON (JWT) rafraîchi est non valide."
+
+#: includes/Bluesky/API.php:169
+msgid "Invalid record or access token."
+msgstr "L’enregistrement ou le jeton d’accès sont non valides."
+
+#: includes/Bluesky/API.php:190
+msgid "Invalid blob or MIME type."
+msgstr "L’objet binaire large (blob) ou le type mime sont non valides."
+
+#: includes/Bluesky/API.php:194
+msgid "Invalid access token."
+msgstr "Le jeton d’accès est non valide."
+
+#: includes/Bluesky/API.php:214
+msgid "Error uploading blob."
+msgstr ""
+"Une erreur est survenue lors du transfert de l’objet binaire large (blob)."
+
+#: includes/Bluesky/API.php:233
+msgid "Unknown error."
+msgstr "Erreur inconnue."
+
+#: includes/Bluesky/API.php:234
+msgid "No message"
+msgstr "Aucun message"
+
+#: includes/ConnectionsManager.php:34
+msgid "Connection not added: Connection with DID `{did}` already exists."
+msgstr ""
+"La connexion n’a pas été ajoutée : la connexion ayant pour identifiant "
+"décentralisé (DID) `{did}` existe déjà."
+
+#: includes/ConnectionsManager.php:35
+msgid "Connection already exists."
+msgstr "La connexion existe déjà."
+
+#: includes/ConnectionsManager.php:39
+msgid "Connection not added: Invalid DID: `{did}`"
+msgstr ""
+"La connexion n’a pas été ajoutée : l’identifiant décentralisé (DID) `{did}` "
+"n’est pas valide"
+
+#: includes/ConnectionsManager.php:40 includes/ConnectionsManager.php:87
+msgid "Invalid DID."
+msgstr "L’identifiant décentralisé (DID) n’est pas valide."
+
+#: includes/ConnectionsManager.php:44
+msgid "Connection not added: Invalid app password."
+msgstr ""
+"La connexion n’a pas été ajoutée : le mot de passe de l’application est non "
+"valide."
+
+#: includes/ConnectionsManager.php:45
+msgid "Invalid app password."
+msgstr "Le mot de passe de l’application est non valide."
+
+#: includes/ConnectionsManager.php:51
+msgid "Connection not added: Failed to authenticate with Bluesky."
+msgstr ""
+"La connexion n’a pas été ajoutée : Autoblue n’est pas parvenu à vous "
+"authentifier sur Bluesky."
+
+#: includes/ConnectionsManager.php:68
+msgid "Connection with handle `{handle}` added."
+msgstr "La connexion pour le pseudo `{handle}` a été ajoutée."
+
+#: includes/ConnectionsManager.php:75
+msgid "Connection added."
+msgstr "La connexion a été ajoutée."
+
+#: includes/ConnectionsManager.php:86
+msgid "Connection not deleted: Invalid DID: `{did}`"
+msgstr ""
+"La connexion n’a pas été supprimée : l’identifiant décentralisé (DID) `{did}"
+"` n’est pas valide"
+
+#: includes/ConnectionsManager.php:94
+msgid "Connection not deleted: Connection not found."
+msgstr "La connexion n’a pas été supprimée : elle est introuvable."
+
+#: includes/ConnectionsManager.php:95 includes/ConnectionsManager.php:155
+msgid "Connection not found."
+msgstr "La connexion est introuvable."
+
+#: includes/ConnectionsManager.php:101
+msgid "Connection with DID `{did}` deleted."
+msgstr ""
+"La connexion ayant pour identifiant décentralisé (DID) `{did}` a été "
+"supprimée."
+
+#: includes/Endpoints/AccountController.php:60
+msgid "DID of the account to fetch."
+msgstr "Identifiant décentralisé (DID) du compte à récupérer."
+
+#: includes/Endpoints/ConnectionsController.php:39
+msgid "DID of the connection to be deleted."
+msgstr "Identifiant décentralisé (DID) de la connexion à supprimer."
+
+#: includes/Endpoints/ConnectionsController.php:106
+msgid "DID of the Bluesky account."
+msgstr "Identifiant décentralisé (DID) du compte Bluesky."
+
+#: includes/Endpoints/ConnectionsController.php:112
+msgid "An app password linked to the Bluesky account to be added."
+msgstr "Un mot de passe d’application lié au compte Bluesky à ajouter."
+
+#: includes/Endpoints/SearchController.php:63
+msgid "Search query prefix"
+msgstr "Préfixe de la requête de recherche"
+
+#: includes/Logging/Log.php:62
+msgid "[Success] "
+msgstr "[Succès] "
+
+#: includes/Meta.php:17
+msgid "Whether the post should be shared to Bluesky."
+msgstr "Partage ou pas l’article sur Bluesky."
+
+#: includes/Meta.php:29
+msgid "An optional custom message to include with the post."
+msgstr ""
+"Un message personnalisé optionnel à intégrer au-dessus du lien vers "
+"l’article."
+
+#: includes/Meta.php:41
+msgid "A list of shares of the post."
+msgstr "La liste des partages effectués de l’article."
+
+#: includes/Meta.php:77
+msgid "A Bluesky post URL to show likes and replies from."
+msgstr ""
+"Une URL de publication sur Bluesky utilisée pour montrer les « likes » et "
+"les réponses rattachées."
+
+#: includes/PostHandler.php:36
+msgid ""
+"Skipping share for post `{post_title}` with ID `{post_id}` because it is not "
+"enabled."
+msgstr ""
+"Le partage de l’article ayant pour titre `{post_title}` et ID `{post_id}` a "
+"été ignoré car il n’est pas autorisé."
+
+#: includes/PostHandler.php:49
+msgid ""
+"Skipping share for post `{post_title}` with ID `{post_id}` because it is not "
+"a supported post type. Valid post types are: `{valid_post_types}`, but got "
+"`{post_type}`."
+msgstr ""
+"Le partage de l’article ayant pour titre `{post_title}` et ID `{post_id}` a "
+"été ignoré car son type de publication n’est pas pris en charge. Les types "
+"de publications pris en charge sont `{valid_post_types}`, ce qui ne comprend "
+"pas `{post_type}`."
+
+#: includes/PostHandler.php:63
+msgid ""
+"Skipping share for post `{post_title}` with ID `{post_id}` because the post "
+"is already published."
+msgstr ""
+"Le partage de l’article ayant pour titre `{post_title}` et ID `{post_id}` a "
+"été ignoré car son statut est déjà « publié »."
+
+#: includes/PostHandler.php:74
+msgid ""
+"Skipping share for post `{post_title}` with ID `{post_id}` because a share "
+"is already scheduled."
+msgstr ""
+"Le partage de l’article ayant pour titre `{post_title}` et ID `{post_id}` a "
+"été ignoré car un partage a déjà été planifié."
+
+#: includes/PostHandler.php:86
+msgid ""
+"Processing share for post `{post_title}` with ID `{post_id}` immediately."
+msgstr ""
+"Traitement immédiat du partage de l’article ayant pour titre `{post_title}` "
+"et ID `{post_id}`."
+
+#: includes/PostHandler.php:95
+msgid "Scheduling share for post `{post_title}` with ID `{post_id}`."
+msgstr ""
+"Planification du partage de l’article ayant pour titre `{post_title}` et ID "
+"`{post_id}`."
+
+#: includes/PostHandler.php:120
+msgid "Processing share for post `{post_title}` with ID `{post_id}`."
+msgstr ""
+"Traitement du partage de l’article ayant pour titre `{post_title}` et ID "
+"`{post_id}`."
+
+#: build/admin.js:1 build/editor.js:1
+msgid "Delete"
+msgstr "Supprimer"
+
+#: build/admin.js:1 build/editor.js:1
+msgid "No accounts found. Please try another search."
+msgstr "Aucun compte trouvé. Merci d’essayer une autre recherche."
+
+#: build/admin.js:1 build/editor.js:1
+msgid "Search for a Bluesky account"
+msgstr "Rechercher un compte Bluesky"
+
+#: build/admin.js:1 build/editor.js:1
+msgid "Bluesky Account"
+msgstr "Compte Bluesky"
+
+#. translators: %s is the account name and handle
+#: build/admin.js:4 build/editor.js:4
+msgid "Account \"%s\" connected"
+msgstr "Le compte « %s » est connecté"
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Failed to connect account"
+msgstr "La connexion au compte a échoué"
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Account disconnected"
+msgstr "Le compte est déconnecté"
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Failed to disconnect account"
+msgstr "La déconnexion au compte a échoué"
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Logs refreshed."
+msgstr "Les journaux ont été rafraîchis."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Failed to refresh logs."
+msgstr "Le rafraîchissement des journaux a échoué."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Logs cleared."
+msgstr "Les journaux ont été effacés."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Failed to clear logs."
+msgstr "L’effacement des journaux a échoué."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Connect Bluesky account"
+msgstr "Connecter le compte Bluesky"
+
+#: build/admin.js:4 build/editor.js:4
+msgid "App Password"
+msgstr "Mot de passe d’application"
+
+#: build/admin.js:4 build/editor.js:4
+msgid ""
+"You can create a new app password in your <a>Bluesky account settings</a>."
+msgstr ""
+"Vous pouvez créer un nouveau mot de passe d’application dans les <a>réglages "
+"de votre compte Bluesky</a>."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Connect Account"
+msgstr "Connecter le compte"
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Something went wrong. Make sure the app password is correct."
+msgstr ""
+"Quelque chose s’est mal passé. Merci de vous assurer que le mot de passe "
+"d’application est correct."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Please enter an app password."
+msgstr "Merci de saisir un mot de passe d’application."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Please pick an account to add."
+msgstr "Merci de sélectionner le compte à ajouter."
+
+#: build/admin.js:4
+msgid "No account connected."
+msgstr "Aucun compte connecté."
+
+#: build/admin.js:4 build/editor.js:4
+msgid "Connect a Bluesky account"
+msgstr "Connecter un compte Bluesky"
+
+#: build/admin.js:4
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+#: build/admin.js:4
+msgid "Are you sure you want to disconnect this account?"
+msgstr "Êtes-vous certain·e de vouloir déconnecter ce compte ?"
+
+#: build/admin.js:4
+msgid "Automatic sharing to Bluesky enabled."
+msgstr "Partage automatique sur Bluesky activé."
+
+#: build/admin.js:4
+msgid "Automatic sharing to Bluesky disabled."
+msgstr "Partage automatique sur Bluesky désactivé."
+
+#: build/admin.js:4
+msgid "Bluesky account"
+msgstr "Compte Bluesky"
+
+#: build/admin.js:4
+msgid "Automatically share posts to Bluesky"
+msgstr "Partagez automatiquement vos articles sur Bluesky"
+
+#: build/admin.js:4
+msgid ""
+"When enabled, new posts will be automatically shared to Bluesky. You can "
+"change this on a per-post basis."
+msgstr ""
+"Lorsqu’activé, les nouveaux articles seront automatiquement partagés sur "
+"Bluesky. Vous pouvez modifier ceci pour chaque article."
+
+#: build/admin.js:4
+msgid ""
+"Autoblue is created by <a>Daniel Post</a>. Not officially affiliated with or "
+"endorsed by Bluesky."
+msgstr ""
+"Autoblue est crée par <a>Daniel Post</a>. Cette extension n’est pas affiliée "
+"officiellement ou approuvé par Bluesky."
+
+#: build/admin.js:4
+msgid "Debug"
+msgstr "Déboguer"
+
+#: build/admin.js:4
+msgid "Everything will be logged. Useful for debugging."
+msgstr "Tout sera journalisé : utile pour le débogage."
+
+#: build/admin.js:4
+msgid "Info"
+msgstr "Info"
+
+#: build/admin.js:4
+msgid "Errors, warnings and info messages will be logged."
+msgstr "Les erreurs, alertes et messages d’information seront journalisés."
+
+#: build/admin.js:4
+msgid "Error"
+msgstr "Erreur"
+
+#: build/admin.js:4
+msgid "Only critical errors will be logged."
+msgstr "Seules les erreurs critiques seront journalisées."
+
+#: build/admin.js:4
+msgid "Off"
+msgstr "Éteint"
+
+#: build/admin.js:4
+msgid "Nothing will be logged."
+msgstr "Rien ne sera journalisé."
+
+#. translators: %s is the log level
+#: build/admin.js:7
+msgid "Log level updated to \"%s\"."
+msgstr "Niveau de journalisation mis à jour pour « %s »."
+
+#: build/admin.js:7 build/admin.js:10
+msgid "Context"
+msgstr "Contexte"
+
+#: build/admin.js:7 build/admin.js:10
+msgid "Level"
+msgstr "Niveau"
+
+#: build/admin.js:7 build/admin.js:10 build/editor.js:4
+msgid "Message"
+msgstr "Message"
+
+#: build/admin.js:7
+msgid "Date"
+msgstr "Date"
+
+#: build/admin.js:7
+msgid "Log level"
+msgstr "Niveau de journalisation"
+
+#: build/admin.js:7
+msgid "Choose the level of logs to save. This will not affect existing logs."
+msgstr ""
+"Choisissez le niveau de journalisation à enregistrer. Cela n’affectera pas "
+"les journaux existants."
+
+#: build/admin.js:7
+msgid "Clear logs"
+msgstr "Effacer les journaux"
+
+#: build/admin.js:7
+msgid "Are you sure you want to clear all logs?"
+msgstr "Êtes vous certain·e de vouloir effacer tous les journaux ?"
+
+#: build/admin.js:7
+msgid "View options"
+msgstr "Afficher les options"
+
+#: build/admin.js:7
+msgid "(recommended)"
+msgstr "(Recommandé)"
+
+#: build/admin.js:7
+msgid "Refresh logs"
+msgstr "Rafraîchir les journaux"
+
+#: build/admin.js:7
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: build/admin.js:7
+msgid "Next page"
+msgstr "Page suivante"
+
+#. translators: %1$d is the first item number, %2$d is the last item number, %3$d is the total number of items)
+#: build/admin.js:10
+msgid "Showing %1$d-%2$d of %3$d logs"
+msgstr "Affichage de %1$d-%2$d sur %3$d journaux"
+
+#: build/admin.js:10
+msgid "View Context"
+msgstr "Afficher le contexte"
+
+#: build/admin.js:10
+msgid "Time"
+msgstr "Heure"
+
+#: build/admin.js:10
+msgid "No logs (yet)."
+msgstr "Aucun journal (jusqu’à présent)."
+
+#: build/admin.js:10
+msgid "Logs"
+msgstr "Journaux"
+
+#: build/editor.js:1
+msgid "Shared to Bluesky"
+msgstr "Partagé sur Bluesky"
+
+#: build/editor.js:1
+msgid "View on Bluesky"
+msgstr "Afficher sur Bluesky"
+
+#: build/editor.js:1
+msgid "Sharing was disabled for this post."
+msgstr "Le partage a été désactivé pour cet article."
+
+#: build/editor.js:1
+msgid "Bluesky Post URL"
+msgstr "URL de la publication sur Bluesky"
+
+#: build/editor.js:1
+msgid ""
+"If you used Autoblue to share this post, replies from that URL will show up "
+"automatically. If you did not use Autoblue or want to show replies from a "
+"different URL, you can enter it here."
+msgstr ""
+"Si vous avez utilisé Autoblue pour partagé cet article, les réponses "
+"ajoutées depuis Bluesky seront automatiquement affichées."
+
+#: build/editor.js:4
+msgid "Share to Bluesky"
+msgstr "Partager sur Bluesky"
+
+#: build/editor.js:4
+msgid "Add an optional message to the Bluesky post."
+msgstr ""
+"Ajouter un message optionnel au-dessus de votre publication sur Bluesky."
+
+#: build/editor.js:4
+msgid "Sharing to:"
+msgstr "Partage sur :"
+
+#: build/js/blocks/comments/block.json
+msgctxt "block title"
+msgid "Autoblue Comments"
+msgstr "Commentaires Autoblue"
+
+#: build/js/blocks/comments/block.json
+msgctxt "block description"
+msgid "Display Bluesky comments on your site."
+msgstr "Affiche les commentaires Bluesky sur votre site."
